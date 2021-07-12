@@ -11,22 +11,22 @@
   - cd mhn/
   - sudo ./install.sh
 
-    ===========================================================
+  
     MHN Configuration
-    ===========================================================
-    Do you wish to run in Debug mode?: y/n n
-    Superuser email: YOUR_EMAIL@YOURSITE.COM
-    Superuser password: 
-    Server base url ["http://1.2.3.4"]: 
-    Honeymap url ["http://1.2.3.4:3000"]:
-    Mail server address ["localhost"]: 
-    Mail server port [25]: 
-    Use TLS for email?: y/n n
-    Use SSL for email?: y/n n
-    Mail server username [""]: 
-    Mail server password [""]: 
-    Mail default sender [""]: 
-    Path for log file ["mhn.log"]: 
+
+    - Do you wish to run in Debug mode?: y/n n
+    - Superuser email: YOUR_EMAIL@YOURSITE.COM
+    - Superuser password: 
+    - Server base url ["http://1.2.3.4"]: 
+    - Honeymap url ["http://1.2.3.4:3000"]:
+    - Mail server address ["localhost"]: 
+    - Mail server port [25]: 
+    - Use TLS for email?: y/n n
+    - Use SSL for email?: y/n n
+    - Mail server username [""]: 
+    - Mail server password [""]: 
+    - Mail default sender [""]: 
+    - Path for log file ["mhn.log"]: 
 
 - verify services are running (sudo supervisorctl status)
 - review ports are open (netstat -tunlp)
